@@ -21,3 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "SampleApp"
 include ':app'
+include ':express'
+project(':express').projectDir = new File(rootDir, 'express_lib/app/')
